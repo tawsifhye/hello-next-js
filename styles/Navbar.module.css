@@ -1,0 +1,29 @@
+.navbar_container {
+    height: 80px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav_links {
+    display: flex;
+
+}
+
+.nav_links>li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+/* .nav_links>li:last-child{
+    margin-right: 0;
+} */

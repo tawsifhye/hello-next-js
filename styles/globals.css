@@ -1,3 +1,12 @@
+.container {
+  width: 1300px;
+  margin: 50px auto;
+}
+
+.container h1 {
+  text-align: center;
+}
+
 html,
 body {
   padding: 0;
