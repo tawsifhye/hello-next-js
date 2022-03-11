@@ -1,5 +1,4 @@
 function PostDetails({ post, filterComments }) {
-    console.log(filterComments);
     return (
         <div className="container">
             <h1>{post?.title}- {post.id}</h1>

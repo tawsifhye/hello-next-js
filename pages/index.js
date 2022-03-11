@@ -10,7 +10,7 @@ function Home({ posts }) {
             <Posts>
 
                 {
-                    posts.slice(0, 10).map(post => (
+                    posts.slice(0, 9).map(post => (
                         <PostCard key={post.id} post={post}></PostCard>
                     ))
                 }
