@@ -3,3 +3,10 @@
     padding: 20px;
     box-shadow: 5px 5px 5px rgba(241, 238, 238, 0.863);
 }
+
+.button {
+    background-color: aquamarine;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid beige;
+}
