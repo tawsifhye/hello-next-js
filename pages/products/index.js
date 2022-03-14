@@ -29,7 +29,7 @@ function User({ products }) {
 
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 
     const res = await fetch('https://fakestoreapi.com/products')
     const products = await res.json()
