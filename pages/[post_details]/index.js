@@ -22,7 +22,7 @@ export async function getStaticPaths() {
     const postsRes = await fetch('https://jsonplaceholder.typicode.com/posts')
     const posts = await postsRes.json()
     // Get the paths we want to pre-render based on posts
-    const paths = posts.slice(0, 9).map((post) => ({
+    const paths = posts.slice(0, 20).map((post) => ({
         params: {
             post_details: post.id.toString()
         },
